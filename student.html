@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <header class="w-full h-[94px] bg-black py-5 px-14">
+        <div class="flex justify-between items-center">
+            <a href="index.html" class="cursor-pointer"><img src="image.png" width="146" height="39" class="bg-white" alt=""></a>
+            <div class="flex items-center gap-3">
+                <div class="w-[171px] h-14 flex justify-center items-center gap-2 rounded-lg bg-white">
+                    <i class='bx bx-home text-[26px] text-[#757575] cursor-pointer'></i>
+                    <span class="text-[#757575] text-base font-semibold">Home</span>
+                </div>
+                <div class="w-[171px] h-14 flex justify-center items-center gap-2 rounded-lg bg-white">
+                    <i class='bx bx-book text-[26px] text-[#757575] cursor-pointer'></i>
+                    <span class="text-[#757575] text-base font-semibold">Learning</span>
+                </div>
+                <div class="w-[171px] h-14 flex justify-center items-center gap-2 rounded-lg bg-white">
+                    <i class='bx bx-store text-[26px] text-[#757575] cursor-pointer'></i>
+                    <span class="text-[#757575] text-base font-semibold">Shop</span>
+                </div>
+            </div>
+            <div class="w-[65px] h-[65px] bg-white rounded-full overflow-hidden cursor-pointer border-4 border-blue-400">
+                <img src="avatar_IMG_20250207_214715_880_2025-02-07-21-49-06.jpeg" class="w-full h-full bg-center" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="h-screen flex justify-center items-center bg-gray-200">
+        <div class="w-[380px] h-[551px] bg-white rounded-b-3xl rounded-t-2xl flex flex-col items-center pt-[60px] gap-7 relative">
+            <div class="w-[150px] h-[150px] rounded-full border-8 border-blue-400 overflow-hidden">
+                <img src="avatar_IMG_20250207_214715_880_2025-02-07-21-49-06.jpeg" class="w-full h-full " alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-center">
+                <h3 class="text-lg font-bold text-[#EF400F]">Darajalar</h3>
+                <img src="image copy.png" width="170" height="56" alt="">
+            </div>
+            <h1 id="ism" class="font-bold text-2xl text-[#0E0D5D]"></h1>
+            <div class="flex gap-2 items-center text-base font-semibold text-[#BDBDBD]">
+                <h2 id="guruh" class="font-semibold text-base text-[#BDBDBD]"></h2> |
+                <span id="teacher" class="font-semibold text-base text-[#BDBDBD]"></span>
+            </div>
+            <div class="w-full bg-gradient-to-l from-[#E33D0E] to-[#FF7D58] rounded-2xl h-[75px] absolute bottom-0 py-4 px-10 flex justify-between items-center">
+                <div class="flex gap-1 items-center">
+                    <img src="coin.png" width="44" height="42" alt="">
+                    <h2 id="coin" class="font-bold text-3xl text-white"></h2>
+                </div>
+                <div class="flex gap-1 items-center">
+                    <img src="xp.png" width="44" height="42" alt="">
+                    <h2 id="quvvat" class="font-bold text-3xl text-white"></h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="student.js"></script>
+</body>
+</html>
